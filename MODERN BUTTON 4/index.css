@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.wrapper{
+height: 100vh;
+width: 100vw;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #27282c;
+
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+    padding: 0.8rem 2.5rem;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+    border-radius: 3px;
+    height: 70px;
+    width: 210px;
+    font-weight: 400;
+    font: bold;
+    font-size: 20px;
+ 
+    transition: 0.5s ease;
+}
+
+.btn:hover{
+    box-shadow: 0 0 5px cyan,
+        0 0 25px cyan,
+            0 0 50px cyan,
+            0 0 100px cyan,
+            0 0 200px cyan;
+    font-size: 10px;
+}
+
+
+
